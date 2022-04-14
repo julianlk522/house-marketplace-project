@@ -54,13 +54,13 @@ function ListingItem({ listing, id }) {
             </div>
         </Link>
 
-        if {onDelete && (
+        {/* if {onDelete && (
             <DeleteIcon 
                 className='removeIcon' 
                 fill='rgb(231, 76, 60)' 
                 onClick={() => {onDelete(listing.id, listing.name)}
             }/>
-        )}
+        )} */}
     </li>
   )
 }
