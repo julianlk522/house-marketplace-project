@@ -51,6 +51,7 @@ function SignUp() {
 
       } catch(error) {
         toast.error('Error: Registration Failed')
+        console.log(error)
       }
     }
     
